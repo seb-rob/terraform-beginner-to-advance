@@ -1,0 +1,7 @@
+users:
+  - username: john
+    roles: [AmazonS3FullAccess]
+  - username: jenny
+    roles: [AmazonEC2FullAccess]
+  - username: jimmy
+    roles: [AmazonS3FullAccess, AmazonEC2FullAccess]

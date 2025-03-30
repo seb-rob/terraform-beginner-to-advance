@@ -1,0 +1,11 @@
+aws_instance.server[1]: Still destroying... [id=i-0cb0d131ab8a6bd52, 10s elapsed]
+aws_instance.server[0]: Still destroying... [id=i-09e7743d6e1bfb46c, 10s elapsed]
+aws_instance.server[2]: Still destroying... [id=i-04764fb8624b7723c, 20s elapsed]
+aws_instance.server[1]: Still destroying... [id=i-0cb0d131ab8a6bd52, 20s elapsed]
+aws_instance.server[0]: Still destroying... [id=i-09e7743d6e1bfb46c, 20s elapsed]
+aws_instance.server[2]: Still destroying... [id=i-04764fb8624b7723c, 30s elapsed]
+aws_instance.server[1]: Still destroying... [id=i-0cb0d131ab8a6bd52, 30s elapsed]
+aws_instance.server[0]: Still destroying... [id=i-09e7743d6e1bfb46c, 30s elapsed]
+aws_instance.server[2]: Destruction complete after 31s
+aws_instance.server[1]: Destruction complete after 32s
+aws_instance.server[0]: Destruction complete after 32s
