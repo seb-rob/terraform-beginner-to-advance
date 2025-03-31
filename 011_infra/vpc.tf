@@ -11,6 +11,9 @@ resource "aws_vpc" "aws_vpc" {
 resource "aws_subnet" "aws_subnet_public" {
   vpc_id = aws_vpc.aws_vpc.id
   cidr_block = "10.0.1.0/24"
+  # map_public_ip_on_launch = true ensures that every instance 
+  # launched in this public_subnet will automatically receive a public IP.
+  map_public_ip_on_launch = true
   tags = {
     Name = "aws_subnet_public"
   }
